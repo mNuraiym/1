@@ -4,7 +4,7 @@ import AboutPage from "./components/pages/aboutPage/AboutPage";
 import NavBar from "./components/navBar/NavBar";
 import BlogsPage from "./components/pages/blogsPage/BlogsPage";
 import LoginPage from "./components/pages/loginPage/LoginPage";
-import InfoPage from "./components/pages/infoPage/InfoPage";
+import { UserPage } from './components/pages/userPage/UserPage';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="about" element={<AboutPage/>}/>
         <Route path="blogs" element={<BlogsPage/>}/>
         <Route path="login" element={<LoginPage/>}/>
-        <Route path="info" element={<InfoPage/>}/>
+        <Route path="user" element={<UserPage/>}/>
 
       </Routes>
     </BrowserRouter>
